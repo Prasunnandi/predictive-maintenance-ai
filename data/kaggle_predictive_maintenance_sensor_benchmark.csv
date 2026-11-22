@@ -1,0 +1,9 @@
+asset_id,asset_type,operational_hours,cycles_completed,temperature_c,vibration_rms_g,bearing_pressure_bar,acoustic_emission_db,oil_contamination_ppm,estimated_rul_hours,failure_probability_pct,maintenance_status,anomalous_feature,recommended_action
+ASSET-CNC-101,5-Axis CNC Milling Spindle,4820,1240,89.4,4.82,14.2,78.5,42,48,87.4,CRITICAL_ALERT,vibration_rms_g,Emergency Spindle Bearing Replacement Required within 48h
+ASSET-TURBINE-04,Industrial Gas Turbofan Unit 4,12450,3810,142.1,2.15,28.6,62.0,18,310,24.1,DEGRADED_WARNING,temperature_c,Schedule Thermal Heat Shield Inspection in Next Cycle
+ASSET-PUMP-209,High-Pressure Hydraulic Feed Pump,8120,2900,64.2,1.20,18.0,45.2,8,1240,4.2,HEALTHY_NOMINAL,none,Routine Lubrication Top-up at 1500h
+ASSET-COMP-88,Centrifugal Gas Compressor,9640,3120,108.5,3.95,22.4,81.4,56,84,79.2,CRITICAL_ALERT,acoustic_emission_db,Replace Compressor Seal & Check Impeller Imbalance
+ASSET-MOTOR-55,Heavy Induction Drive Motor 250kW,3400,950,58.0,0.92,12.5,41.0,6,2400,2.1,HEALTHY_NOMINAL,none,Normal Operating Parameter; Continue Telemetry Monitoring
+ASSET-ROBOT-02,Automated Robotic Welder Arm,6730,2150,76.8,2.78,16.8,59.3,24,420,41.8,DEGRADED_WARNING,vibration_rms_g,Recalibrate Harmonic Drive Actuator and Check Backlash
+ASSET-CONV-14,Bulk Material Conveyor Drive Pulley,5120,1600,61.5,1.45,11.2,48.0,11,1800,6.5,HEALTHY_NOMINAL,none,Standard Belt Tension Inspection at Next Shift
+ASSET-CHILL-01,Absorption Industrial Water Chiller,11200,3450,94.2,3.40,24.1,72.6,39,120,72.6,CRITICAL_ALERT,bearing_pressure_bar,Inspect Refrigerant Compressor Bearing & Relief Valve

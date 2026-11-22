@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  predix-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    restart: always
+
+  predix-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3004:80"
+    depends_on:
+      - predix-backend
+    restart: always
